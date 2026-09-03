@@ -28,6 +28,7 @@ The application provides a graphical user interface built with Qt and uses MySQL
 
 ## Project Structure
 
+```text
 StockManagementQT/
 |
 +-- database/
@@ -60,6 +61,7 @@ StockManagementQT/
 +-- .gitignore
 +-- README.md
 +-- StockManagementQT.sln
+```
 
 ## Requirements
 
@@ -132,7 +134,7 @@ Password: admin123
 
 ![Users](screenshots/users.png)
 
-![Database Diagram](screenshots/database.png)
+![Database Diagram](screenshots/diagram.png)
 
 ## Possible Future Improvements
 
