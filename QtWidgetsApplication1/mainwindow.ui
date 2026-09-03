@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1384</width>
+    <height>1488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>171</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Dashboard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Categories</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Products</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Customers</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Transactions</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Reports</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Users</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stock Management</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Log Out</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>7</number>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+    <widget class="QWidget" name="page_3"/>
+    <widget class="QWidget" name="page_4"/>
+    <widget class="QWidget" name="page_5"/>
+    <widget class="QWidget" name="page_6"/>
+    <widget class="QWidget" name="page_7"/>
+    <widget class="QWidget" name="page_8"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1384</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
